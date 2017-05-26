@@ -1,0 +1,49 @@
+{
+  "name": "webdriver-log-server",
+  "version": "1.0.0",
+  "description": "this is a ios-server base on macaca webdriver-server and appium-log add get log from server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dahaidadavid/webdriver-log-server.git"
+  },
+  "keywords": [
+    "webdriver",
+    "for",
+    "ios"
+  ],
+  "author": "dahaidadavid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dahaidadavid/webdriver-log-server/issues"
+  },
+  "homepage": "https://github.com/dahaidadavid/webdriver-log-server#readme",
+  "dependencies": {
+    "adm-zip": "~0.4.7",
+    "appium-ios-log": "^1.2.3",
+    "boom": "~3.1.2",
+    "chalk": "~1.1.1",
+    "co": "~4.6.0",
+    "commander": "~2.0.0",
+    "detect-port": "~0.1.4",
+    "koa": "~1.1.2",
+    "koa-bodyparser": "~2.0.1",
+    "koa-router": "~5.4.0",
+    "lodash": "^4.17.4",
+    "sync-request": "~3.0.0",
+    "temp": "~0.8.3",
+    "webdriver-dfn-error-code": "~1.0.0",
+    "xlogger": "~1.0.4",
+    "xutil": "~1.0.0"
+  },
+  "devDependencies": {
+    "co-mocha": "*",
+    "istanbul": "^0.4.5",
+    "jshint": "*",
+    "mocha": "2.2.4",
+    "should": "*"
+  }
+}
